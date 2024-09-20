@@ -1,0 +1,13 @@
+.titulo {
+  color: crimson;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu > li {
+  display: inline-block;
+  padding-right: 10px;
+}
