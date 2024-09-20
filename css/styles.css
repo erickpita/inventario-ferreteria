@@ -1,13 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .titulo {
   color: crimson;
+  padding-left: 15px;
 }
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: aquamarine;
+  padding-block-end: 0px;
 }
-
+.menu{
+    padding-right: 15px;
+}
 .menu > li {
   display: inline-block;
-  padding-right: 10px;
+  padding-inline: 10px;
 }
